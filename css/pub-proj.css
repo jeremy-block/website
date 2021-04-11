@@ -1,0 +1,8 @@
+body { padding-top: 70px; }
+
+.card {
+    padding: 1em;
+}
+img {
+    max-height: 300px;
+}

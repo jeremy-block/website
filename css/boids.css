@@ -1,0 +1,104 @@
+/*-----------------------------
+    / Alignment Rules /
+-----------------------------*/
+
+body {
+	color: #f9f9f9;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.left-block {
+	display: block;
+	float: left;
+}
+
+.right-block {
+	display: block;
+	float: right;
+}
+
+#wrapper {
+	display: flex;
+	justify-content: center;
+	/*
+
+    border-style: inset;
+    border-color:  black;
+*/
+	/*display: block;
+margin-left: auto;
+margin-right: auto;
+        overflow: hidden;
+*/
+	/* clear the float */
+}
+
+#canvas {
+	overflow: hidden;
+	background: #333333;
+	border: 3px inset black;
+	border-radius: 30px;
+}
+
+#sideContent {
+	padding: 10px;
+	width: 780;
+	float: left;
+	background: #333333;
+	border: 3px inset black;
+	border-radius: 30px;
+}
+
+#sideContent img {
+	border-radius: 20px;
+}
+
+.btn-lg {
+	transition: all 0.3s ease-in-out;
+	padding: 10px 20px;
+	position: relative;
+	margin: 2% auto;
+	max-width: 33%;
+	font-weight: bolder;
+	border: 3px solid #fff;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.btn-lg:hover {
+	border: 3px solid #ed5c29;
+	background-color: #ed5c29;
+	color: white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+/* Front Workaround -- Need to use fonts on the page to use on Canvas */
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+#fontFix {
+	visibility: hidden;
+	/* hide this section */
+}
+
+.font-Josefin-Sans {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: Bold;
+}
+
+.font-shadows {
+	font-family: 'Shadows Into Light', cursive;
+}
