@@ -24,7 +24,7 @@ html{
 		top: 0;
 		left: 0;
 		background-color: white;
-		background: url('../img/header-bg.jpg') no-repeat center center;
+		background: url('../img/header-bg.webp') no-repeat center center;
 		background-size: cover;
 		will-change: transform;  /*creates a new paint layer*/
 		z-index: -1;
