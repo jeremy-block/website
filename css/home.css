@@ -70,6 +70,13 @@ box-shadow: 0 0 25px rgba(0, 0, 0, 0.5),
 	flex-direction: column;
 	position: relative;
 }
+
+.profile-img {
+	border-radius: 50%;
+    width: 25%;
+    margin: 0 auto;
+}
+
 .navbar-btn{
 	padding: 2%;
 	transition: all 0.3s ease-in-out;
