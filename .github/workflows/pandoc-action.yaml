@@ -6,6 +6,10 @@ jobs:
   convert_via_pandoc:
     runs-on: ubuntu-22.04
     steps:
+      - name: List files in the repository
+        run: |
+          ls ${{ github.workspace }}
+      - run: touch ${{github.workspace}}/pandoc.txt
       - uses: docker://pandoc/core:2.9
         with:
-          args: "--help > pandoc.txt" # gets appended to pandoc command
+          args: "--help > ${{github.workspace}}/pandoc.txt" # gets appended to pandoc command
